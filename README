@@ -1,0 +1,12 @@
+jarduino
+------------------------------
+Play with arduino using java
+
+jarduino is a java library for RAAP (Remote Arduino Automation Protocol) client, to remotely communicate and perform I/O among other things, with arduino board using Serial connection.
+
+The "RAAP" firmware used with current release is available in "firmware" directory, Latest firmware can be downloaded, compiled & flashed from "RAAP" Github repository.
+  
+HOW TO
+-------------
+ Follow JSTest.java
+		make.bat
