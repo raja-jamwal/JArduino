@@ -1,10 +1,11 @@
 import jarduino.*;
+import jssc.SerialPortException;
 
 public class JSTest {
  
     public static void main(String[] args) {
 	   try{
-       JArduino ard = new JArduino ("COM21");
+       JArduino ard = new JArduino ("COM22");
 	   ard.pinMode (13, PORT.OUTPUT);
 	   ard.digitalWrite (13, DIGITAL.HIGH);
 	   ard.tone (8, 50);

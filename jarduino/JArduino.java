@@ -43,24 +43,6 @@ class OPERATION
 	public static byte PULSE_IN 			= 11;
 };
 
-class DIGITAL
-{
-	public static byte HIGH					= 0;
-	public static byte LOW					= 1;
-};
-
-class STATUS
-{
-	public static byte OK 					= 0;
-	public static byte FAIL  				= 1;
-};
-
-class PORT
-{
-	public static byte OUTPUT				= 0;
-	public static byte INPUT				= 1;
-};
-
 public class JArduino
 {
 	SerialPort serialPort;
